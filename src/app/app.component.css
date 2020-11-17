@@ -1,0 +1,49 @@
+#Resultado{
+    width: 28em;
+    height: 5em;
+}
+body{
+    margin-top: 12px;
+    margin-left: 425px;
+}
+input{
+    height: 70px;
+    width: 11em;
+    background-color: black;
+    color: #ffffff;
+    border: hidden;
+    font-size: 1em;
+    font-size: xx-large;
+}
+button{
+    margin: 8px;
+    height: 2.5em;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    width: 2.5em;
+    cursor: pointer;
+    background-color: rgb(54, 51, 51);
+}
+button:hover{
+    background-color: #a5a3a3;
+    transition: 1000ms;
+}
+#Pline{
+background-color: #888888;
+}
+#Pline:hover{
+    background-color: #e0d7d7;
+    transition: 1000ms;
+    }
+#Pcolum{
+    background-color: rgb(255, 153, 0);
+}
+#Pcolum:hover{
+    background-color: rgb(236, 199, 143);
+    transition: 1000ms;
+}
+#Zclass{
+    width: 167px;
+    border-radius: 80px;
+}
