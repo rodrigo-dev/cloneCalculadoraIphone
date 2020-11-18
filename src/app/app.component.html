@@ -7,7 +7,7 @@
 </head>
 <body>
   <div>
-    <input [value]="resul">
+    <input [value]="display">
   </div>
     <button value="#" id="Pline" (click)="LimparTerminal()">C</button>
     <button value="#" id="Pline" (click)="reverter()" >+/-</button>
@@ -33,6 +33,7 @@
     <button value="," id="#" (click)= "valor1($event.target.value)">,</button>
     <button (click)="resultado()" id="Pcolum">=</button>
     <br>
+    <button (click)="quadrado()"></button>
     {{resul}}
   
 </body>
